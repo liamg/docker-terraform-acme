@@ -6,6 +6,5 @@ RUN wget https://github.com/vancluever/terraform-provider-acme/releases/download
 RUN unzip *.zip
 RUN rm *.zip
 RUN ls -la
-WORKDIR $GOPATH
 
 ENTRYPOINT []
