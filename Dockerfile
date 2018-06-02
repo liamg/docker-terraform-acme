@@ -6,4 +6,4 @@ RUN wget https://github.com/vancluever/terraform-provider-acme/releases/download
 RUN unzip *.zip
 RUN rm *.zip
 
-ENTRYPOINT [""]
+ENTRYPOINT []
