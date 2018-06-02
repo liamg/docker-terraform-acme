@@ -5,6 +5,6 @@ WORKDIR /root/.terraform.d/plugins/
 RUN wget https://github.com/vancluever/terraform-provider-acme/releases/download/v0.5.0/terraform-provider-acme_v0.5.0_linux_amd64.zip
 RUN unzip *.zip
 RUN rm *.zip
-RUN ls -la
+RUN chmod +x *
 
 ENTRYPOINT []
